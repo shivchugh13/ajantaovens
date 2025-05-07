@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <style>
+    .bakery-logo { fill: #d35400; }
+    .oven-door { fill: #a04000; }
+    .flame { fill: #e67e22; }
+  </style>
+  <g>
+    <!-- Oven base -->
+    <rect class="bakery-logo" x="20" y="30" width="80" height="70" rx="5" ry="5"/>
+    
+    <!-- Oven door -->
+    <rect class="oven-door" x="30" y="45" width="60" height="45" rx="3" ry="3"/>
+    
+    <!-- Window -->
+    <rect fill="#f5eadc" x="35" y="50" width="50" height="35" rx="2" ry="2"/>
+    
+    <!-- Bread inside -->
+    <ellipse fill="#e67e22" cx="60" cy="67" rx="15" ry="10"/>
+    <path fill="#c0392b" d="M53,65 Q60,60 67,65 Q60,75 53,65 Z"/>
+    
+    <!-- Controls -->
+    <circle fill="#333" cx="40" cy="37" r="3"/>
+    <circle fill="#333" cx="60" cy="37" r="3"/>
+    <circle fill="#333" cx="80" cy="37" r="3"/>
+    
+    <!-- Flames on top -->
+    <path class="flame" d="M30,20 Q40,5 50,20 Q60,5 70,20 Q80,5 90,20 L90,30 L30,30 Z"/>
+    
+    <!-- A letter stylized -->
+    <text x="60" y="100" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#fff">A</text>
+  </g>
+</svg>

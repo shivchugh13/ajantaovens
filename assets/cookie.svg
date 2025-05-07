@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="cookieGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#d35400" />
+      <stop offset="70%" stop-color="#a04000" />
+      <stop offset="100%" stop-color="#7f3402" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Cookie Base -->
+  <circle cx="100" cy="100" r="70" fill="url(#cookieGradient)" />
+  
+  <!-- Cookie Texture and Edge -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#7f3402" stroke-width="2" stroke-dasharray="5,3" />
+  
+  <!-- Cookie Cracks -->
+  <path d="M80,60 Q100,80 120,60" fill="none" stroke="#7f3402" stroke-width="1" />
+  <path d="M60,90 Q90,100 70,120" fill="none" stroke="#7f3402" stroke-width="1" />
+  <path d="M120,80 Q100,110 130,140" fill="none" stroke="#7f3402" stroke-width="1" />
+  
+  <!-- Spice/Cumin Seeds for Jeera Biscuit -->
+  <ellipse cx="70" cy="70" rx="5" ry="3" fill="#272121" transform="rotate(30, 70, 70)" />
+  <ellipse cx="120" cy="60" rx="5" ry="3" fill="#272121" transform="rotate(-20, 120, 60)" />
+  <ellipse cx="100" cy="100" rx="5" ry="3" fill="#272121" transform="rotate(45, 100, 100)" />
+  <ellipse cx="60" cy="110" rx="5" ry="3" fill="#272121" transform="rotate(10, 60, 110)" />
+  <ellipse cx="130" cy="90" rx="5" ry="3" fill="#272121" transform="rotate(-40, 130, 90)" />
+  <ellipse cx="90" cy="140" rx="5" ry="3" fill="#272121" transform="rotate(15, 90, 140)" />
+  <ellipse cx="140" cy="120" rx="5" ry="3" fill="#272121" transform="rotate(-25, 140, 120)" />
+  
+  <!-- Sugar Crystals -->
+  <circle cx="85" cy="65" r="2" fill="#f5eadc" />
+  <circle cx="110" cy="85" r="2" fill="#f5eadc" />
+  <circle cx="75" cy="95" r="2" fill="#f5eadc" />
+  <circle cx="95" cy="125" r="2" fill="#f5eadc" />
+  <circle cx="125" cy="115" r="2" fill="#f5eadc" />
+  <circle cx="130" cy="75" r="2" fill="#f5eadc" />
+  <circle cx="60" cy="125" r="2" fill="#f5eadc" />
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="800" viewBox="0 0 1440 800">
+  <defs>
+    <linearGradient id="bakeryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff9f2" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#f5eadc" stop-opacity="0.8" />
+    </linearGradient>
+    <pattern id="bakeryPattern" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M0,15 L30,15 M15,0 L15,30" stroke="#d35400" stroke-width="0.5" stroke-opacity="0.1" />
+    </pattern>
+  </defs>
+  
+  <!-- Base background -->
+  <rect width="100%" height="100%" fill="url(#bakeryGradient)" />
+  <rect width="100%" height="100%" fill="url(#bakeryPattern)" />
+  
+  <!-- Bread and bakery elements -->
+  <g opacity="0.1" fill="#d35400">
+    <!-- Bread loaf -->
+    <path d="M200,300 Q300,200 400,300 Q500,400 600,300 Q700,200 800,300 L800,400 L200,400 Z" />
+    
+    <!-- Rolling pin -->
+    <rect x="900" y="250" width="300" height="30" rx="15" ry="15" />
+    
+    <!-- Cake -->
+    <path d="M1100,500 L1300,500 L1300,600 L1100,600 Z" />
+    <path d="M1080,500 L1320,500 L1320,520 L1080,520 Z" />
+    <path d="M1150,450 L1250,450 L1250,500 L1150,500 Z" />
+    
+    <!-- Cookie -->
+    <circle cx="250" cy="600" r="40" />
+    <circle cx="270" cy="580" r="5" />
+    <circle cx="240" cy="590" r="5" />
+    <circle cx="260" cy="610" r="5" />
+    <circle cx="230" cy="620" r="5" />
+    
+    <!-- Wheat stalks -->
+    <path d="M500,650 L500,550 M480,570 L500,550 L520,570 M470,600 L500,580 L530,600" stroke="#d35400" stroke-width="2" fill="none" />
+    <path d="M550,650 L550,550 M530,570 L550,550 L570,570 M520,600 L550,580 L580,600" stroke="#d35400" stroke-width="2" fill="none" />
+    
+    <!-- Oven -->
+    <rect x="700" y="550" width="100" height="80" rx="5" ry="5" />
+    <rect x="710" y="560" width="80" height="60" rx="3" ry="3" />
+    <circle cx="750" cy="590" r="20" />
+  </g>
+  
+  <!-- Abstract swirls and decorative elements -->
+  <path d="M0,100 Q720,200 1440,100 L1440,0 L0,0 Z" fill="#d35400" opacity="0.05" />
+  <path d="M0,700 Q720,600 1440,700 L1440,800 L0,800 Z" fill="#d35400" opacity="0.05" />
+</svg>

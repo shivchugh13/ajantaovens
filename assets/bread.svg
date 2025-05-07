@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="breadGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e67e22" />
+      <stop offset="100%" stop-color="#d35400" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Bread Base -->
+  <ellipse cx="100" cy="110" rx="80" ry="60" fill="url(#breadGradient)" />
+  
+  <!-- Bread Top -->
+  <path d="M40,110 Q100,30 160,110" fill="url(#breadGradient)" stroke="#a04000" stroke-width="2" />
+  
+  <!-- Bread Texture -->
+  <path d="M50,110 Q70,70 90,110" fill="none" stroke="#a04000" stroke-width="1" opacity="0.5" />
+  <path d="M90,110 Q110,60 130,110" fill="none" stroke="#a04000" stroke-width="1" opacity="0.5" />
+  <path d="M130,110 Q150,70 160,110" fill="none" stroke="#a04000" stroke-width="1" opacity="0.5" />
+  
+  <!-- Flour/Seeds on top -->
+  <circle cx="70" cy="90" r="2" fill="#f5eadc" />
+  <circle cx="85" cy="85" r="2" fill="#f5eadc" />
+  <circle cx="100" cy="80" r="2" fill="#f5eadc" />
+  <circle cx="115" cy="85" r="2" fill="#f5eadc" />
+  <circle cx="130" cy="90" r="2" fill="#f5eadc" />
+  
+  <!-- Cuts on bread -->
+  <path d="M70,90 Q100,80 130,90" fill="none" stroke="#a04000" stroke-width="2" />
+  <path d="M60,100 Q100,90 140,100" fill="none" stroke="#a04000" stroke-width="2" />
+</svg>

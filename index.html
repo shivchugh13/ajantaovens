@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajanta Ovens - Baking Stories Everyday</title>
+    <meta name="description" content="Ajanta Ovens is a beloved neighborhood bakery in Saharanpur, Uttar Pradesh, offering traditional, handcrafted baked goods made with love by Aunty Ji.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3010d94d2f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="assets/logo.svg" alt="Ajanta Ovens Logo">
+                <h1>Ajanta Ovens</h1>
+            </div>
+            <nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#order" class="btn">Order Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Baking Stories Everyday</h1>
+                <p>A cherished artisanal bakery in Saharanpur, bringing traditional recipes and homemade goodness to your table since 2022.</p>
+                <a href="#order" class="btn btn-primary">Pre-Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Story</h2>
+                <p class="subtitle">A journey of passion and tradition</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="founder-image"></div>
+                </div>
+                <div class="about-text">
+                    <h3>Meet Aunty Ji</h3>
+                    <p>Founded in 2022, Ajanta Ovens is a beloved neighborhood bakery run by an elderly woman known affectionately as "Aunty Ji." Operating from her small home kitchen in Saharanpur, Uttar Pradesh, she crafts traditional, handcrafted baked goods that have won the hearts of locals.</p>
+                    
+                    <p>A widowed grandmother in her late 70s, Aunty Ji launched Ajanta Ovens to share her lifelong passion for baking. Using recipes passed down through generations and her signature wood-fired oven, she started baking for neighbors, turning her modest venture into a local favorite through her dedication and flavorful creations.</p>
+                    
+                    <div class="values">
+                        <div class="value-item">
+                            <i class="fas fa-heart"></i>
+                            <h4>Authenticity</h4>
+                            <p>Honoring traditional recipes</p>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-users"></i>
+                            <h4>Community</h4>
+                            <p>Building bonds through food</p>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-leaf"></i>
+                            <h4>Sustainability</h4>
+                            <p>Using eco-friendly ingredients</p>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-award"></i>
+                            <h4>Quality</h4>
+                            <p>Prioritizing taste and health</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Products</h2>
+                <p class="subtitle">Handcrafted with love and tradition</p>
+            </div>
+            
+            <div class="product-categories">
+                <div class="category-tabs">
+                    <button class="category-tab active" data-category="breads">Breads</button>
+                    <button class="category-tab" data-category="cakes">Cakes</button>
+                    <button class="category-tab" data-category="cookies">Cookies & Biscuits</button>
+                    <button class="category-tab" data-category="sweets">Other Sweets</button>
+                </div>
+                
+                <div class="product-grid active" id="breads">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/bread.svg" alt="Whole Wheat Naan">
+                        </div>
+                        <h3>Whole Wheat Naan</h3>
+                        <p>Traditional naan made with wholesome whole wheat flour.</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/bread.svg" alt="Masala Kulcha">
+                        </div>
+                        <h3>Masala Kulcha</h3>
+                        <p>Soft kulcha stuffed with flavorful spiced filling.</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/bread.svg" alt="Sourdough">
+                        </div>
+                        <h3>Sourdough</h3>
+                        <p>Artisanal sourdough with a perfect crust and texture.</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/bread.svg" alt="Garlic Loaf">
+                        </div>
+                        <h3>Garlic Loaf</h3>
+                        <p>Fragrant bread infused with fresh garlic and herbs.</p>
+                    </div>
+                </div>
+                
+                <div class="product-grid" id="cakes">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/cake.svg" alt="Eggless Fruit Cake">
+                        </div>
+                        <h3>Eggless Fruit Cake</h3>
+                        <p>Rich cake filled with dried fruits and natural sweetness.</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/cake.svg" alt="Vanilla Sponge Cake">
+                        </div>
+                        <h3>Vanilla Sponge Cake</h3>
+                        <p>Light and fluffy vanilla cake, perfect for any occasion.</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/cake.svg" alt="Khajoor Cake">
+                        </div>
+                        <h3>Khajoor Cake</h3>
+                        <p>Traditional date cake with warm spices.</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/cake.svg" alt="Pineapple Cake">
+                        </div>
+                        <h3>Pineapple Cake</h3>
+                        <p>Sweet cake with fresh pineapple flavor.</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/cake.svg" alt="Chocolate Cake">
+                        </div>
+                        <h3>Chocolate Cake</h3>
+                        <p>Rich, decadent chocolate cake for chocolate lovers.</p>
+                    </div>
+                </div>
+                
+                <div class="product-grid" id="cookies">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/cookie.svg" alt="Spiced Jeera Biscuit">
+                        </div>
+                        <h3>Spiced Jeera Biscuit</h3>
+                        <p>Local favorite biscuit with cumin and spices.</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/cookie.svg" alt="Nankhatai">
+                        </div>
+                        <h3>Nankhatai</h3>
+                        <p>Traditional Indian shortbread cookies.</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/cookie.svg" alt="Atta Biscuit">
+                        </div>
+                        <h3>Atta Biscuit</h3>
+                        <p>Wholesome biscuits made with whole wheat flour.</p>
+                    </div>
+                </div>
+                
+                <div class="product-grid" id="sweets">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/sweet.svg" alt="Rum Balls">
+                        </div>
+                        <h3>Rum Balls</h3>
+                        <p>Decadent chocolate treats with a hint of rum flavor.</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/sweet.svg" alt="Ladoos">
+                        </div>
+                        <h3>Ladoos</h3>
+                        <p>Traditional Indian sweet spheres in various flavors.</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/sweet.svg" alt="Caramel Popcorn">
+                        </div>
+                        <h3>Caramel Popcorn</h3>
+                        <p>Crunchy popcorn coated in sweet caramel.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="services">
+                <h3>Our Services</h3>
+                <div class="service-items">
+                    <div class="service-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h4>Pre-order System</h4>
+                        <p>Place your orders in advance for freshly baked goods.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-birthday-cake"></i>
+                        <h4>Custom Festival Orders</h4>
+                        <p>Special treats for Diwali, Holi, Christmas, and other celebrations.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-truck"></i>
+                        <h4>Neighborhood Delivery</h4>
+                        <p>Limited delivery service available in nearby areas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Customer Love</h2>
+                <p class="subtitle">What our customers say about us</p>
+            </div>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-container">
+                    <div class="testimonial-card active">
+                        <div class="quote"><i class="fas fa-quote-left"></i></div>
+                        <p class="testimonial-text">"Aunty Ji's whole-wheat naan is a staple in our home! The taste takes me back to my childhood, and her warmth makes every order special."</p>
+                        <div class="testimonial-author">
+                            <h4>Rita Sharma</h4>
+                            <p>Local Homemaker</p>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="quote"><i class="fas fa-quote-left"></i></div>
+                        <p class="testimonial-text">"I ordered a custom eggless fruit cake for Diwali, and it was a hit! Ajanta Ovens' authentic flavors and personal touch are unmatched."</p>
+                        <div class="testimonial-author">
+                            <h4>Vikram Singh</h4>
+                            <p>Young Professional</p>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="quote"><i class="fas fa-quote-left"></i></div>
+                        <p class="testimonial-text">"The jeera biscuits are my daily tea companion. Aunty Ji's baking is like a hug from home, always fresh and delicious."</p>
+                        <div class="testimonial-author">
+                            <h4>Meena Gupta</h4>
+                            <p>Neighborhood Regular</p>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="quote"><i class="fas fa-quote-left"></i></div>
+                        <p class="testimonial-text">"Ajanta Ovens made our Holi celebration extra sweet with their spiced cookies. Ordering was easy, and the quality was outstanding!"</p>
+                        <div class="testimonial-author">
+                            <h4>Arjun Patel</h4>
+                            <p>Festival Shopper</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-controls">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="order" class="order">
+        <div class="container">
+            <div class="section-header">
+                <h2>Place Your Pre-Order</h2>
+                <p class="subtitle">Freshly baked, just for you</p>
+            </div>
+            
+            <div class="order-content">
+                <div class="order-form-container">
+                    <form id="preOrderForm" action="https://formsubmit.co/ajantaovens@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="New Pre-Order from Website">
+                        <input type="hidden" name="_next" value="https://ajantaovens.com/thank-you.html">
+                        
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number (WhatsApp)</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="address">Delivery Address</label>
+                            <textarea id="address" name="address" rows="3" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="orderType">What would you like to order?</label>
+                            <select id="orderType" name="orderType" required>
+                                <option value="">Select product category</option>
+                                <option value="bread">Breads</option>
+                                <option value="cake">Cakes</option>
+                                <option value="cookie">Cookies & Biscuits</option>
+                                <option value="sweet">Other Sweets</option>
+                                <option value="custom">Custom Order</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group" id="specificProductContainer" style="display: none;">
+                            <label for="specificProduct">Select Specific Product</label>
+                            <select id="specificProduct" name="specificProduct">
+                                <option value="">Select a product</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="orderDetails">Order Details</label>
+                            <textarea id="orderDetails" name="orderDetails" rows="5" placeholder="Please specify quantities, any special requests, or details for custom orders." required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="deliveryDate">Preferred Delivery/Pickup Date</label>
+                            <input type="date" id="deliveryDate" name="deliveryDate" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="radio-group">
+                                <p>Preferred Method:</p>
+                                <div class="radio-option">
+                                    <input type="radio" id="pickup" name="method" value="pickup" checked>
+                                    <label for="pickup">Pickup</label>
+                                </div>
+                                <div class="radio-option">
+                                    <input type="radio" id="delivery" name="method" value="delivery">
+                                    <label for="delivery">Delivery (Limited Area)</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Submit Pre-Order</button>
+                    </form>
+                </div>
+                
+                <div class="order-info">
+                    <div class="order-note">
+                        <h3>How Pre-Orders Work</h3>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Place your order at least 24 hours in advance</li>
+                            <li><i class="fas fa-check-circle"></i> We'll confirm your order via WhatsApp</li>
+                            <li><i class="fas fa-check-circle"></i> Payment is accepted on delivery/pickup</li>
+                            <li><i class="fas fa-check-circle"></i> For custom orders, please provide details</li>
+                            <li><i class="fas fa-check-circle"></i> Limited delivery available in Saharanpur</li>
+                        </ul>
+                        
+                        <div class="special-notice">
+                            <h4>Festival & Special Orders</h4>
+                            <p>For large orders or festival specials, please pre-order at least 3-5 days in advance. Aunty Ji prepares everything in small batches to ensure quality and freshness.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p class="subtitle">We'd love to hear from you</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Visit Us</h3>
+                        <p>23, State Bank Colony 3, Janakpuri, Saharanpur, Uttar Pradesh</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3>Call or WhatsApp</h3>
+                        <p><a href="https://wa.me/919997832823" target="_blank">+91 9997832823</a></p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email Us</h3>
+                        <p><a href="mailto:ajantaovens@gmail.com">ajantaovens@gmail.com</a></p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Baking Hours</h3>
+                        <p>Monday - Saturday: 8:00 AM - 6:00 PM<br>Sunday: Closed</p>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.1698789033087!2d77.53!3d29.96!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb6919c0aa4b5%3A0x99a39aba0f1ccdf6!2sState%20Bank%20Colony%203%2C%20Janakpuri%2C%20Saharanpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1630000000000!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo.svg" alt="Ajanta Ovens Logo">
+                    <h3>Ajanta Ovens</h3>
+                    <p>Baking Stories Everyday</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#order">Pre-Order</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 23, State Bank Colony 3, Janakpuri, Saharanpur</p>
+                    <p><i class="fas fa-phone-alt"></i> <a href="https://wa.me/919997832823" target="_blank">+91 9997832823</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:ajantaovens@gmail.com">ajantaovens@gmail.com</a></p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ajanta Ovens. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/919997832823" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="cakeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5eadc" />
+      <stop offset="100%" stop-color="#e6d0b5" />
+    </linearGradient>
+    <linearGradient id="frostingGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f8c291" />
+      <stop offset="100%" stop-color="#e67e22" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Cake Stand -->
+  <ellipse cx="100" cy="150" rx="70" ry="10" fill="#a04000" opacity="0.7" />
+  <rect x="90" y="150" width="20" height="10" fill="#a04000" opacity="0.9" />
+  <ellipse cx="100" cy="160" rx="30" ry="5" fill="#a04000" />
+  
+  <!-- Bottom Layer -->
+  <ellipse cx="100" cy="150" rx="60" ry="15" fill="url(#cakeGradient)" />
+  <rect x="40" y="125" width="120" height="25" fill="url(#cakeGradient)" />
+  <ellipse cx="100" cy="125" rx="60" ry="15" fill="url(#cakeGradient)" />
+  
+  <!-- Middle Layer -->
+  <ellipse cx="100" cy="125" rx="50" ry="12" fill="url(#frostingGradient)" />
+  <rect x="50" y="100" width="100" height="25" fill="url(#frostingGradient)" />
+  <ellipse cx="100" cy="100" rx="50" ry="12" fill="url(#frostingGradient)" />
+  
+  <!-- Top Layer -->
+  <ellipse cx="100" cy="100" rx="40" ry="10" fill="url(#cakeGradient)" />
+  <rect x="60" y="80" width="80" height="20" fill="url(#cakeGradient)" />
+  <ellipse cx="100" cy="80" rx="40" ry="10" fill="url(#cakeGradient)" />
+  
+  <!-- Frosting Decoration -->
+  <path d="M70,80 Q75,70 80,80 Q85,70 90,80 Q95,70 100,80 Q105,70 110,80 Q115,70 120,80 Q125,70 130,80" fill="none" stroke="#e67e22" stroke-width="3" />
+  
+  <!-- Cake Decorations -->
+  <circle cx="100" cy="65" r="8" fill="#e74c3c" /> <!-- Cherry on top -->
+  <circle cx="100" cy="65" r="2" fill="#ffffff" opacity="0.5" /> <!-- Cherry highlight -->
+  <rect x="98" y="65" width="2" height="15" fill="#7f8c8d" transform="rotate(-10, 100, 65)" /> <!-- Cherry stem -->
+  
+  <!-- Sprinkles -->
+  <circle cx="80" cy="85" r="2" fill="#3498db" />
+  <circle cx="120" cy="85" r="2" fill="#3498db" />
+  <circle cx="90" cy="75" r="2" fill="#e74c3c" />
+  <circle cx="110" cy="75" r="2" fill="#e74c3c" />
+  <circle cx="70" cy="90" r="2" fill="#2ecc71" />
+  <circle cx="130" cy="90" r="2" fill="#2ecc71" />
+</svg>
